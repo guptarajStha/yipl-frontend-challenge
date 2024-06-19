@@ -1,0 +1,118 @@
+@media (max-width: 900px) {
+  .resources-main-div .top-desc {
+    width: 80%;
+  }
+}
+@media (min-width: 900px) {
+  .resources-main-div .top-desc {
+    width: 40%;
+  }
+}
+
+.resources-main-div {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.resources-main-div .top-desc {
+  text-align: center;
+  /* font-size: 18px; */
+  font-size: max(12px, 1.15vw);
+  font-weight: 400;
+  color: #7c7d82;
+}
+.resources-main-div .resources-card-main-div {
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  gap: 40px;
+  margin-top: 30px;
+}
+.resources-main-div .resources-card-main-div .card {
+  /* width: 30%; */
+  padding: 2%;
+  background-color: #ffffff;
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.resources-main-div .resources-card-main-div .card .card-top-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.resources-main-div
+  .resources-card-main-div
+  .card
+  .card-top-div
+  .card-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 60px; */
+  width: 4.5vw;
+  /* height: 60px; */
+  height: 4.5vw;
+  /* border-radius: 18px; */
+  border-radius: 1.5vw;
+  background-color: #f8f1ff;
+}
+.resources-main-div
+  .resources-card-main-div
+  .card
+  .card-top-div
+  .card-icon-heading {
+  /* font-size: 20px; */
+  font-size: max(14px,1.2vw);
+  color: #66686D;
+  font-weight: 400;
+}
+.resources-main-div .resources-card-main-div .card .card-middle-div h2{
+    color: #24272E;
+    font-weight: 600;
+    /* font-size: 24px; */
+    font-size: max(14px,1.4vw);
+
+}
+.resources-main-div .resources-card-main-div .card .card-middle-div p{
+    color: #7C7D82;
+    font-weight: 400;
+    /* font-size: 16px; */
+    font-size: max(10px,1.1vw);
+
+}
+.resources-main-div .resources-card-main-div .card .card-bottom-div a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: DM Sans;
+    font-weight: 700;
+    /* font-size: 16px; */
+    font-size: max(10px,1.1vw);
+    color: #1D6FA3;
+    text-decoration: none;
+
+} 
+@media (max-width:650px){
+    .resources-main-div .resources-card-main-div {
+        display: flex;
+        flex-direction: column;
+       
+      }
+      .resources-main-div .resources-card-main-div .card {
+        width: 100%;
+      }
+}
+@media (min-width:650px){
+    .resources-main-div .resources-card-main-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+}

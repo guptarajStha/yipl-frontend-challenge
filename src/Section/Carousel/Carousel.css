@@ -1,0 +1,43 @@
+.carousel-div{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* flex-direction: row;
+    padding: 40px 20px; */
+    justify-content: center;
+  position: relative;
+  gap: 60px;
+
+}
+.slider-items{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px 40px;
+    gap: 60px;
+    overflow: scroll;
+}
+.carousel-div .arrow{
+    cursor: pointer;
+}
+.left-button{
+    position: absolute;
+    left: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #F9F9FF;
+}
+.right-button{
+    position: absolute;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #F9F9FF;
+}
+::-webkit-scrollbar {
+    display: none;
+  }

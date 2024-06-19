@@ -1,0 +1,133 @@
+@media (max-width: 1200px) {
+ 
+  @media (max-height: 700px) {
+    .main-hero-div {
+      height: 80vh;
+    }
+    .main-hero-div .hero-content .button-div button {
+      padding: 6px;
+      border-radius: 2px;
+    }
+  }
+  @media (min-height: 700px) and (max-height: 800px) {
+    .main-hero-div {
+      height: 70vh;
+    }
+    .main-hero-div .hero-content .button-div button {
+      padding: 6px;
+      border-radius: 2px;
+    }
+  }
+  @media (min-height: 800px) and (max-height: 1024px) {
+    .main-hero-div {
+      height: 60vh;
+    }
+    .main-hero-div .hero-content .button-div button {
+      padding: 6px;
+      border-radius: 2px;
+    }
+  }
+  @media (min-height: 1024px) {
+    .main-hero-div {
+      height: 50vh;
+    }
+    .main-hero-div .hero-content .button-div button {
+      padding: 6px;
+      border-radius: 2px;
+    }
+  }
+  @media (min-width: 1000px) and (max-height:700px){
+    .main-hero-div {
+      height: 100vh;
+    }
+    .main-hero-div .hero-content .button-div button {
+      padding: 6px;
+      border-radius: 2px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .main-hero-div {
+    height: 100vh;
+  }
+  .main-hero-div .hero-content .button-div button {
+    padding: 16px 28px;
+    border-radius: 8px;
+  }
+}
+.main-hero-div {
+  background-image: linear-gradient(rgba(0, 41, 83, 0.8), rgba(0, 45, 91, 0.8)),
+    url("../../Assets/hero.jpg");
+  width: 100vw;
+  /* height: 100vh; */
+  background-size: 50% auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-hero-div .nav-main {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.main-hero-div .nav {
+  width: 80%;
+  margin: auto;
+}
+.main-hero-div .hero-content {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.main-hero-div .hero-content .hero-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-hero-div .hero-content .hero-content-text h1 {
+  /* font-size:60px; */
+  font-size: max(25px, 4vw);
+  /* font-size: 4vw; */
+  font-weight: 600;
+  margin: 0;
+}
+.main-hero-div .hero-content .hero-content-text div {
+  margin-top: 24px;
+  /* font-size: 20px; */
+  font-size: max(10px, 1.4vw);
+  font-weight: 400;
+  width: 60%;
+}
+.main-hero-div .hero-content .button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: ; */
+  font-size: max(10px, 1.29vw);
+}
+.main-hero-div .hero-content .button-div button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #ffe500;
+  background: none;
+  color: white;
+  /* font-size: 18px; */
+
+  font-weight: 600;
+  /* padding: 16px 28px; */
+  /* border-radius: 8px; */
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.main-hero-div .hero-content .button-div button:hover {
+  background-color: gray;
+  opacity: 50%;
+}

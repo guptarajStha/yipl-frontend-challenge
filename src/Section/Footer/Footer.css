@@ -1,0 +1,111 @@
+@media (max-width: 500px) {
+  .footer-inner-div {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .footer-left-div {
+    width: 100%;
+  }
+  .footer-left-div img {
+    width: 150px;
+  }
+  .footer-inner-div .footer-left-div .footer-icon-div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-inner-div .footer-right-div {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .footer-inner-div {
+    flex-direction: row;
+    padding: 100px 0;
+  }
+  .footer-left-div {
+    width: 25%;
+  }
+  .footer-inner-div .footer-right-div {
+    width: 45%;
+  }
+  .footer-left-div img {
+    width: 50%;
+  }
+}
+.footer-main-div {
+  background: linear-gradient(135deg, #3387d7 0%, #093157 100%);
+
+
+  background-image: linear-gradient(rgba(0, 41, 83, 0.8), rgba(0, 45, 91, 0.8))
+  ,url("../../Assets/footer.png");
+  background-size: 50% auto;
+  background-position: center;
+  background-size: cover;
+}
+.footer-inner-div {
+  margin: auto;
+  /* padding: 100px 0; */
+  width: 80%;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner-div .footer-left-div {
+  /* width: 25%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* .footer-left-div img{
+    width: 100%;
+} */
+.footer-inner-div .footer-left-div .paragraph-div {
+  font-size: max(10px, 0.95vw);
+  font-weight: 400;
+}
+.footer-inner-div .footer-left-div .footer-icon-div {
+  display: flex;
+  gap: 20px;
+}
+.footer-inner-div .footer-left-div .footer-icon-div div {
+  width: 36px;
+  height: 36px;
+  color: #3a3d43;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.footer-inner-div .footer-left-div .footer-icon-div div:hover {
+  background-color: gray;
+  opacity: 90%;
+}
+.footer-inner-div .footer-right-div {
+  /* width: 45%; */
+  display: flex;
+  justify-content: space-between;
+}
+.footer-inner-div .footer-right-div .right-div-content .right-div-heading {
+  font-weight: 600;
+  font-size: max(11px, 1.1vw);
+}
+.footer-inner-div .footer-right-div .right-div-content h6 {
+  font-weight: 400;
+  font-size: max(10px, 0.95vw);
+  cursor: pointer;
+}
+.bottom .bottom-inner-div {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7c7d82;
+  font-weight: 400;
+  font-size: max(10px, 0.95vw);
+}
